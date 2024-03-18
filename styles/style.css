@@ -5,66 +5,108 @@
 }
 
 .page {
-    width: 1100px;
+    max-width: 1100px;
     font-family: Raleway, Arial, sans-serif;
     margin: 0 auto;
     min-height: 100px;
   }
 
+  body {
+    max-width: 1100px;
+    font-family: Raleway, 'Arial', sans-serif;
+    font-size: 18px;
+  }	
+
 .header {
-    padding: 92px 24px 96px 24px;
+
+    max-width: 1100px;
+    max-height: 293px;
+    padding: 92px 24px 96px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
 .header__menu {
-    width: 391.48px;
-    height: 22px;
-    margin: 44px 36px 39px 26.52px;
+     
+}
+
+
+.header__menu-list{
+    display: flex;
+    justify-content: space-between;
+    line-height: 21px;
+    letter-spacing: 1%;
+    margin-bottom: 2px;
 
 }
 
-.header__link{
-    text-decoration: none;
-    width: 67;
-    height: 21;
-}
-.header__links-list{
-    gap: 22px;
-}
-
-.header__links-list-item {
+.header__menu-list-item {
     list-style: circle;
+    letter-spacing: ;
+    padding-right: ;
+    text-underline-offset: 4px;
 }
 
-.header__links-list-item_no-bullit {
+.header__menu-list-item_no-bullit {
     list-style: none;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.header__link_active{
+
+}
+.header__link {
+    text-decoration: none;
 }
 
 .header__logo {
-    width: 129px;
-    height: 105px;
-    text-align: center;
+    max-width: 148px;
+    max-height: 105px;
+    margin-right: 50px;
   }
-
-.header__links-list {
-    display: flex;
+.header__logo-image{
 }
-
 .address {
-    width: 240.52px;
-    height: 98px;
     display: flex;
     flex-direction: column;
+    gap: 5px;
     text-align: left;
+    font-family: Raleway, 'Arial', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    max-width: 240px;
+    max-height: 98px;
 }
 
 .header__address {
-    width: 237px;
-    height: 49px;
-    margin: 5px 25.48px 2px 184px;
+ 
+}
+.header__address-link{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.header__address-map{
     
 }
 
-.body {
-    font-family: 'Raleway','Arial', sans-serif;
+.cover{
+    position: relative;
+    background: url(../images/cover.jpg) no-repeat center center/cover;
+}
+.overlay{
+}
+.cover__title {
+    max-width: 1100px;
+    max-height: 355px;
+    padding: 0 24px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
