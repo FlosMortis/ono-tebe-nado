@@ -44,7 +44,7 @@
     
 }
 
-.header__menu-list{
+.header__menu-list {
     display: flex;
     line-height: 21px;
     gap: 32px;
@@ -60,27 +60,21 @@
     text-decoration: none;
 }
 
-.header__menu-list-item_bullit{
+.header__menu-list-item_bullit {
     letter-spacing: 0.011em;
     
-}
-.header__link_active{
-
 }
 .header__link {
     text-decoration: none;
 }
 
-img{
+img {
     display: block;
     height: 105px;
     width: 148;
     
 }
-.header__logo {
-    
-  }
-.header__logo-image{
+.header__logo-image {
     margin-left: -1px;
 }
 .address {
@@ -105,17 +99,17 @@ img{
     margin-left: 184px;
  
 }
-.address-link{
+.address-link {
     letter-spacing: 0.008em;
     
 }
-.address-map{
+.address-map {
     letter-spacing: 0.005em;
     padding-top: 0.5px;
     
 }
 
-.cover{
+.cover {
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +118,7 @@ img{
     position: relative;
     color: #fff;
 }
-.overlay{
+.overlay {
     position: absolute;
     inset: 0; 
     max-width: 1100px;
@@ -142,15 +136,14 @@ img{
     text-transform: uppercase;
     margin-bottom: 135px;
 }
-
 .span {
     display: block;
     margin-bottom: 20px;
 }
-.cover_title-span:last-child{
+.cover_title-span:last-child {
     margin-bottom: 135px;
 }
-.aligned-text{
+.aligned-text {
     text-align: left;
     letter-spacing: 0.3em;
 }
@@ -167,15 +160,15 @@ img{
     
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 0.6em;
 
 }
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0em;
 }
 
-.cover__description{
+.cover__description {
     position: relative;
     z-index: 3;
     display: flex;
@@ -186,7 +179,7 @@ img{
     padding: 0px 50px 51px 78px;
     
 }
-.cover__description-text{
+.cover__description-text {
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 400;
@@ -196,7 +189,7 @@ img{
 
 }
 
-.cover__button {
+.bet-button {
     border: 1px solid #fff;
     background: transparent;
     font-weight: 500;
@@ -208,6 +201,8 @@ img{
     align-items: center;
     justify-content: center;
     height: 51px;
+    color: #fff;
+    font-family: Raleway, Arial, sans-serif;
 }
 
 .lots {
@@ -291,7 +286,7 @@ img{
   
    .lots__look-more-link {
     display: block;
-    margin-top: 32px;
+    margin-top: 30px;
     margin-left: 40px;
     font-size: 20px;
     text-underline-position: under;
@@ -319,7 +314,7 @@ img{
     margin-left: 45px;
 }
 
-.about_logo-image{
+.about_logo-image {
     width: 150px;
     height: 180px;
 }
@@ -340,7 +335,7 @@ img{
     letter-spacing: 0.003em;
 }
 
-.about_text{
+.about_text {
     display: flex;
     flex-direction: column;
     font-size: 20px;
@@ -371,7 +366,7 @@ img{
     
 }
 
-.footer__menu-list{
+.footer__menu-list {
     display: flex;
     flex-direction: column;
     line-height: 21px;
@@ -390,27 +385,24 @@ img{
     text-decoration: none;
 }
 
-.footer__menu-list-item_bullit{
+.footer__menu-list-item_bullit {
     letter-spacing: 0.011em;
     
-}
-.footer__link_active{
-
 }
 .footer__link {
     text-decoration: none;
 }
 
-.footer_social{
+.footer_social {
     display: flex;
 }
-.footer_social-list{
+.footer_social-list {
     display: flex;
     gap: 48px;
     list-style: none;
     margin-bottom: 49px;
 }
-.footer_social-icon{
+.footer_social-icon {
     width: auto;
     height: 48px;
 }
