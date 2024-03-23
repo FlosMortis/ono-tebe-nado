@@ -213,7 +213,6 @@ img{
 .lots {
     padding: 180px 24px 146px;
    }
-  
 .lots__heading {
     font-size: 40px;
     text-transform: uppercase;
@@ -221,9 +220,7 @@ img{
     margin-bottom: 27px;
     margin-left: 40px;
     font-weight: 700;
-
 }
-  
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
